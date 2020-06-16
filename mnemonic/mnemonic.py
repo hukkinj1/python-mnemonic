@@ -58,7 +58,7 @@ def b58encode(v):
     return string
 
 
-class Mnemonic(object):
+class Mnemonic:
     def __init__(self, language):
         self.radix = 2048
         with open(
